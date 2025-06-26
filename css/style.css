@@ -925,11 +925,12 @@ header ul li a:hover {
         height: 90px;
         text-align: center;
         align-items: center;
-        position: relative;
-        top: 50%;
-        transform: translateY(20%);
+        justify-content: center;
     }
-
+    .footer .container span {
+        font-weight: bold;
+        font-style: italic;
+    }
     .footer .container .col {
         margin: 5px 0;
     }
